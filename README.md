@@ -1,12 +1,12 @@
 # NextOpenSource
 
-[English](README.md) · [Türkçe](README.tr.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 ## What is NextOpenSource?
 
 The independent upstream and open-source adaptation workspace of NextLife, serving all HCC projects. Compare reusable software, Core repositories and native development; document provenance, license compatibility, maintenance, security and adaptation boundaries.
 
-**Status:** Private founding documentation workspace; no operational service, deployed agents, permissions, verified project results or automated enforcement is implied.
+**Status:** Public Core and documentation workspace; no operational service, deployed agents, permissions, verified project results or automated enforcement is implied.
 
 ## Role and work standards
 
@@ -38,4 +38,4 @@ No project-specific work has been initiated yet.
 
 [Engineering standards](https://github.com/human-centered-computing/.github/blob/main/ENGINEERING-STANDARDS.md) · [AI governance](https://github.com/human-centered-computing/.github/blob/main/AI-GOVERNANCE.md) · [Security](https://github.com/human-centered-computing/.github/blob/main/SECURITY.md).
 
-English is canonical. Root READMEs follow the bilingual standard. Repository is private; future publication and licensing require appropriate review. No release or license grant is implied.
+English is canonical. Root READMEs follow the four-language standard. Repository is public; future publication and licensing require appropriate review. No release or license grant is implied.

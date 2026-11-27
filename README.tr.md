@@ -1,6 +1,6 @@
 # NextOpenSource
 
-[English](README.md) · [Türkçe](README.tr.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 ## NextOpenSource nedir?
 
@@ -38,4 +38,4 @@ Henüz projeye özel çalışmaya başlanmamıştır.
 
 [Mühendislik standartları](https://github.com/human-centered-computing/.github/blob/main/ENGINEERING-STANDARDS.md) · [Yapay zekâ yönetişimi](https://github.com/human-centered-computing/.github/blob/main/AI-GOVERNANCE.md) · [Güvenlik](https://github.com/human-centered-computing/.github/blob/main/SECURITY.md).
 
-İngilizce esas sürümdür. Kök README dosyaları iki dilli standarda uyar. Depo özeldir; gelecekte yayın ve lisanslama uygun inceleme gerektirir. Yayın veya lisans hakkı verildiği anlamına gelmez.
+İngilizce esas sürümdür. Kök README dosyaları dört dilli standarda uyar. Depo herkese açıktır; gelecekte yayın ve lisanslama uygun inceleme gerektirir. Yayın veya lisans hakkı verildiği anlamına gelmez.
