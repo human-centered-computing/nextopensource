@@ -28,7 +28,7 @@ NextRoadmap onaylı proje analizini, NextOpenSource ayrıntılı üst kaynak de�
 
 ## Core kütüphanesi
 
-[Core](Core/README.tr.md), yeniden kullanılabilir üçüncü taraf açık kaynak kodlarının ve köken kayıtlarının yetkili aktarımından sonra tutulacağı alandır. Üst kaynak temeli, HCC uyarlamaları, yerelleştirilmiş veri ve ürünün görsel sunumundan ayrı tutulur. İlk kayıtlı bileşen, özgün Keycloak kaynağına Git submodule ile sabitlenen [NextID-Core](Core/NextID-Core/README.tr.md).
+[Core](Core/README.tr.md), yeniden kullanılabilir üçüncü taraf açık kaynak kodlarının ve köken kayıtlarının yetkili aktarımından sonra tutulacağı alandır. Üst kaynak temeli, HCC uyarlamaları, yerelleştirilmiş veri ve ürünün görsel sunumundan ayrı tutulur. İlk kayıtlı bileşen, özgün Keycloak kaynağının sabit, birebir kopyası olan [NextID-Core](Core/NextID-Core/README.tr.md).
 
 ## Projeler
 
