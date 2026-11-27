@@ -26,4 +26,8 @@ Core/
 
 ## Kayıtlı bileşenler
 
-Henüz üst kaynak kodu aktarılmamıştır. Bileşen ancak ilgili inceleme ve yetkilendirme sonrasında eklenir.
+| Bileşen | Üst kaynak | Sabit sürüm | Lisans | Durum |
+|---|---|---|---|---|
+| [NextID-Core](NextID-Core/README.tr.md) | [Keycloak](https://github.com/keycloak/keycloak) | [`26.8.2`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067) | Apache-2.0 | Git submodule; özyinelemeli checkout sırasında kaynak kod alınır; güvenlik/derleme doğrulaması bekliyor |
+
+Yeni bileşenleri ilgili inceleme ve yetkilendirmeden sonra ekle.

@@ -26,4 +26,8 @@ Core/
 
 ## Registered components
 
-No upstream source code has been imported yet. Add a component here only after the relevant review and authorization.
+| Component | Upstream | Pinned revision | License | State |
+|---|---|---|---|---|
+| [NextID-Core](NextID-Core/README.md) | [Keycloak](https://github.com/keycloak/keycloak) | [`26.8.2`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067) | Apache-2.0 | Git submodule; source available on recursive checkout; security/build verification pending |
+
+Add further components after relevant review and authorization.

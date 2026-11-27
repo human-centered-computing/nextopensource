@@ -1,0 +1,3 @@
+[submodule "Core/NextID-Core/source"]
+	path = Core/NextID-Core/source
+	url = https://github.com/keycloak/keycloak.git
