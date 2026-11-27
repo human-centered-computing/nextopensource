@@ -1,5 +1,7 @@
 # NextOpenSource
 
+> حالة الترجمة: مسودة بمساعدة الذكاء الاصطناعي، بانتظار مراجعة لغوية بشرية.
+
 [English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 ## ما هو NextOpenSource؟

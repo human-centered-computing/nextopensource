@@ -1,5 +1,7 @@
 # NextID-Core
 
+> Übersetzungsstatus: KI-unterstützter Entwurf, menschliche Sprachprüfung ausstehend.
+
 [English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 [Core-Bibliothek](../README.de.md)

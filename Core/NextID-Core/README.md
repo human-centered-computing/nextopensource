@@ -1,6 +1,6 @@
 # NextID-Core
 
-[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Core library](../README.md)
 
 Shared open-source identity and access management foundation for NextID. Original source from [keycloak/keycloak](https://github.com/keycloak/keycloak); the personal fork is a structural reference, not the source. No original upstream file has been intentionally changed.
 

@@ -1,5 +1,7 @@
 # Core – gemeinsame Open-Source-Grundlage
 
+> Übersetzungsstatus: KI-unterstützter Entwurf, menschliche Sprachprüfung ausstehend.
+
 [English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 [NextOpenSource](../README.de.md)

@@ -1,6 +1,6 @@
 # NextID-Core
 
-[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md) · [Core kütüphanesi](../README.tr.md)
 
 NextID için ortak açık kaynak kimlik ve erişim yönetimi temeli. Özgün kaynak [keycloak/keycloak](https://github.com/keycloak/keycloak) adresinden gelir; kişisel fork yalnızca yapısal referanstır. Özgün üst kaynak dosyalarında kasıtlı değişiklik yapılmamıştır.
 

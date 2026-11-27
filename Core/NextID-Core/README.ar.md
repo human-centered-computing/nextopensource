@@ -1,5 +1,7 @@
 # NextID-Core
 
+> حالة الترجمة: مسودة بمساعدة الذكاء الاصطناعي، بانتظار مراجعة لغوية بشرية.
+
 [English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 [مكتبة Core](../README.ar.md)
