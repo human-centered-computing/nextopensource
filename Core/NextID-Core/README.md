@@ -2,21 +2,16 @@
 
 [English](README.md) · [Türkçe](README.tr.md) · [Core library](../README.md)
 
-Shared open-source identity and access management foundation for NextID. The source comes directly from [keycloak/keycloak](https://github.com/keycloak/keycloak), not from the personal fork. The personal [muratdelen/NextID-Core](https://github.com/muratdelen/NextID-Core) is the architectural reference only. At the maintainer's direction, this workspace uses the latest stable upstream release rather than the older personal fork baseline or its synchronization workflow.
+Shared open-source identity and access management foundation for NextID. Original source from [keycloak/keycloak](https://github.com/keycloak/keycloak); the personal fork is a structural reference, not the source. No original upstream file has been intentionally changed.
 
-- Latest stable upstream release at review: [26.8.2](https://github.com/keycloak/keycloak/releases/tag/26.8.2) (2026-11-05).
-- Upstream commit: [`e514445f9dcdabc5bdcf67cab56c1e49655de067`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067)
-- Upstream tree: `6f439a9bda71c39bf725150cea5d50f149e423f6`
-- License: Apache-2.0; preserve [original license](https://github.com/keycloak/keycloak/blob/e514445f9dcdabc5bdcf67cab56c1e49655de067/LICENSE.txt), copyright and notices.
-- Source directory: `source/`, a Git submodule targeting the original upstream repository at that exact commit.
+- Upstream release: [26.8.2](https://github.com/keycloak/keycloak/releases/tag/26.8.2) (2026-11-05).
+- Pinned commit: [`e514445f9dcdabc5bdcf67cab56c1e49655de067`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067)
+- Source tree: `6f439a9bda71c39bf725150cea5d50f149e423f6`
+- License: Apache-2.0; original license, attribution and notices are in the source.
+- Source: [source/](source/), the full exact upstream Git tree as ordinary files.
 
-To materialize the full source code locally after checking out NextOpenSource:
+A normal authenticated clone of NextOpenSource contains the complete source tree; no submodule initialization is needed. NextID can use the pinned source as build input. Its own independent repository holds localized data, themes, extensions, Dockerfile and product configuration.
 
-```bash
-git submodule update --init --recursive Core/NextID-Core/source
-git -C Core/NextID-Core/source rev-parse HEAD
-```
+The existing personal NextID is based on a Core container image and adds a NextLog listener extension. The future HCC delivery model separates original Keycloak source, reviewed Core build artifact and customized NextID product image. Neither a build nor image publication is authorized by this source registration. For build reproducibility, record the exact NextOpenSource commit and resulting image digest; avoid relying on floating `latest`. Private repository access must be authorized; do not place credentials in Dockerfiles.
 
-This retains the original Git history and repository structure without copying an entire independent fork into NextOpenSource's own history. GitHub stores the gitlink and pinned revision; code is fetched from Keycloak when the submodule is initialized. No HCC-specific source changes, product localization, credentials, or active synchronization workflow are introduced.
-
-For future updates, fetch the upstream remote, select and review an explicit revision, assess security/licensing/build and regression evidence, then advance the gitlink through a reviewed PR. No automatic sync, build, deployment or production suitability is claimed. See [upstream record](UPSTREAM.md).
+Update the upstream snapshot only through a reviewed PR, verify exact expected tree, retain upstream license and notices, and perform NextSecurity assessment, build and regression tests before production use. No automatic update or publication is enabled.

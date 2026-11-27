@@ -2,21 +2,16 @@
 
 [English](README.md) · [Türkçe](README.tr.md) · [Core kütüphanesi](../README.tr.md)
 
-NextID için ortak açık kaynak kimlik ve erişim yönetimi temeli. Kaynak kişisel fork'tan değil, doğrudan [keycloak/keycloak](https://github.com/keycloak/keycloak) adresinden alınır. Kişisel [muratdelen/NextID-Core](https://github.com/muratdelen/NextID-Core) yalnızca mimari referanstır. Sorumlu insanın talebiyle eski kişisel fork sürümü veya senkronizasyon iş akışı yerine üst kaynağın son kararlı sürümü kullanılır.
+NextID için ortak açık kaynak kimlik ve erişim yönetimi temeli. Özgün kaynak [keycloak/keycloak](https://github.com/keycloak/keycloak) adresinden gelir; kişisel fork yalnızca yapısal referanstır. Özgün üst kaynak dosyalarında kasıtlı değişiklik yapılmamıştır.
 
-- İnceleme anındaki son kararlı üst kaynak sürümü: [26.8.2](https://github.com/keycloak/keycloak/releases/tag/26.8.2) (2026-11-05).
-- Üst kaynak commit'i: [`e514445f9dcdabc5bdcf67cab56c1e49655de067`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067)
-- Üst kaynak ağaç kimliği: `6f439a9bda71c39bf725150cea5d50f149e423f6`
-- Lisans: Apache-2.0; [özgün lisansı](https://github.com/keycloak/keycloak/blob/e514445f9dcdabc5bdcf67cab56c1e49655de067/LICENSE.txt), telif ve bildirimleri koru.
-- Kaynak klasörü: `source/`, asıl üst kaynak deposunun kesin commit'ine bağlı Git submodule.
+- Üst kaynak sürümü: [26.8.2](https://github.com/keycloak/keycloak/releases/tag/26.8.2) (2026-11-05).
+- Sabit commit: [`e514445f9dcdabc5bdcf67cab56c1e49655de067`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067)
+- Kaynak ağaç kimliği: `6f439a9bda71c39bf725150cea5d50f149e423f6`
+- Lisans: Apache-2.0; özgün lisans, atıflar ve bildirimler kaynakta korunur.
+- Kaynak: [source/](source/), özgün Git ağacının normal dosyalar olarak birebir tam kopyası.
 
-NextOpenSource yerel checkout'undan sonra tüm kaynak kodunu almak için:
+Yetkili erişimle NextOpenSource normal şekilde klonlandığında kaynak ağacının tamamı gelir; submodule başlatmak gerekmez. NextID bu sabit kaynak sürümünü derleme girdisi olarak kullanabilir. Yerelleştirilmiş veri, temalar, eklentiler, Dockerfile ve ürün yapılandırması kendi bağımsız ürün deposunda kalır.
 
-```bash
-git submodule update --init --recursive Core/NextID-Core/source
-git -C Core/NextID-Core/source rev-parse HEAD
-```
+Mevcut kişisel NextID, Core konteyner imajı üzerine NextLog dinleyicisi eklentisini ekler. Gelecekteki HCC teslimat modeli özgün Keycloak kaynak kodunu, incelenmiş Core derleme çıktısını ve özelleştirilmiş NextID ürün imajını ayırır. Bu kaynak kaydı derleme veya imaj yayını yetkisi vermez. Tekrarlanabilir derleme için kesin NextOpenSource commit'ini ve imaj özetini kaydet; değişken `latest` etiketine güvenme. Gizli depo erişimi yetkilendirilmelidir; Dockerfile'a kimlik bilgisi yazma.
 
-Bu yapı özgün Git geçmişini ve depo düzenini korur; bağımsız fork'un tamamını NextOpenSource'un kendi geçmişine kopyalamaz. GitHub gitlink ve sabit sürümü saklar; submodule başlatıldığında kod doğrudan Keycloak'tan çekilir. HCC'ye özgü kaynak değişikliği, ürün yerelleştirmesi, kimlik bilgisi veya çalışan senkronizasyon iş akışı eklenmemiştir.
-
-Gelecekteki güncellemelerde üst kaynağı çek, kesin sürümü seçip incele, güvenlik/lisans/derleme ve regresyon kanıtlarını değerlendir; gitlink'i incelenmiş PR ile güncelle. Otomatik senkronizasyon, derleme, dağıtım veya üretime uygunluk iddia edilmez. Bkz. [üst kaynak kaydı](UPSTREAM.md).
+Üst kaynak kopyası yalnızca incelenmiş PR ile güncellenir; kesin ağaç özeti doğrulanır, lisans ve bildirimler korunur; üretim öncesi NextSecurity değerlendirmesi, derleme ve regresyon testi yapılır. Otomatik güncelleme veya yayın etkin değildir.
