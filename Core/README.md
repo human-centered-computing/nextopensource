@@ -28,6 +28,6 @@ Core/
 
 | Component | Upstream | Pinned revision | License | State |
 |---|---|---|---|---|
-| [NextID-Core](NextID-Core/README.md) | [Keycloak](https://github.com/keycloak/keycloak) | [`5274246ade2f`](https://github.com/keycloak/keycloak/commit/5274246ade2f0a4731ee5004cf29eec4ee58b4aa) | Apache-2.0 | Git submodule; source available on recursive checkout; security/build verification pending |
+| [NextID-Core](NextID-Core/README.md) | [Keycloak](https://github.com/keycloak/keycloak) | [`26.8.2`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067) | Apache-2.0 | Git submodule; source available on recursive checkout; security/build verification pending |
 
 Add further components after relevant review and authorization.

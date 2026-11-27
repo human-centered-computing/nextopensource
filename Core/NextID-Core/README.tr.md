@@ -2,11 +2,12 @@
 
 [English](README.md) · [Türkçe](README.tr.md) · [Core kütüphanesi](../README.tr.md)
 
-NextID için ortak açık kaynak kimlik ve erişim yönetimi temeli. Kaynak kişisel fork'tan değil, doğrudan [keycloak/keycloak](https://github.com/keycloak/keycloak) adresinden alınır. Kişisel [muratdelen/NextID-Core](https://github.com/muratdelen/NextID-Core) mimari referanstır: `8ec0daff818713f106ebbd816581fbe6358f2557` sürümü, `5274246ade2f0a4731ee5004cf29eec4ee58b4aa` üst kaynak commit'ine yalnızca senkronizasyon iş akışı ekler. Aynı özgün Keycloak kaynak temelini sabitliyoruz; kişisel iş akışını aktarmıyoruz.
+NextID için ortak açık kaynak kimlik ve erişim yönetimi temeli. Kaynak kişisel fork'tan değil, doğrudan [keycloak/keycloak](https://github.com/keycloak/keycloak) adresinden alınır. Kişisel [muratdelen/NextID-Core](https://github.com/muratdelen/NextID-Core) yalnızca mimari referanstır. Sorumlu insanın talebiyle eski kişisel fork sürümü veya senkronizasyon iş akışı yerine üst kaynağın son kararlı sürümü kullanılır.
 
-- Üst kaynak commit'i: [`5274246ade2f0a4731ee5004cf29eec4ee58b4aa`](https://github.com/keycloak/keycloak/commit/5274246ade2f0a4731ee5004cf29eec4ee58b4aa)
-- Üst kaynak ağaç kimliği: `5fc6d20afdd8a8f94210ad6a6715246b9dc3c010`
-- Lisans: Apache-2.0; [özgün lisansı](https://github.com/keycloak/keycloak/blob/5274246ade2f0a4731ee5004cf29eec4ee58b4aa/LICENSE.txt), telif ve bildirimleri koru.
+- İnceleme anındaki son kararlı üst kaynak sürümü: [26.8.2](https://github.com/keycloak/keycloak/releases/tag/26.8.2) (2026-11-05).
+- Üst kaynak commit'i: [`e514445f9dcdabc5bdcf67cab56c1e49655de067`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067)
+- Üst kaynak ağaç kimliği: `6f439a9bda71c39bf725150cea5d50f149e423f6`
+- Lisans: Apache-2.0; [özgün lisansı](https://github.com/keycloak/keycloak/blob/e514445f9dcdabc5bdcf67cab56c1e49655de067/LICENSE.txt), telif ve bildirimleri koru.
 - Kaynak klasörü: `source/`, asıl üst kaynak deposunun kesin commit'ine bağlı Git submodule.
 
 NextOpenSource yerel checkout'undan sonra tüm kaynak kodunu almak için:

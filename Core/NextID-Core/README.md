@@ -2,11 +2,12 @@
 
 [English](README.md) · [Türkçe](README.tr.md) · [Core library](../README.md)
 
-Shared open-source identity and access management foundation for NextID. The source comes directly from [keycloak/keycloak](https://github.com/keycloak/keycloak), not from the personal fork. The personal [muratdelen/NextID-Core](https://github.com/muratdelen/NextID-Core) is the architectural reference: its head `8ec0daff818713f106ebbd816581fbe6358f2557` adds only an upstream synchronization workflow to upstream commit `5274246ade2f0a4731ee5004cf29eec4ee58b4aa`. We pin the same original Keycloak source baseline, excluding the personal workflow.
+Shared open-source identity and access management foundation for NextID. The source comes directly from [keycloak/keycloak](https://github.com/keycloak/keycloak), not from the personal fork. The personal [muratdelen/NextID-Core](https://github.com/muratdelen/NextID-Core) is the architectural reference only. At the maintainer's direction, this workspace uses the latest stable upstream release rather than the older personal fork baseline or its synchronization workflow.
 
-- Upstream commit: [`5274246ade2f0a4731ee5004cf29eec4ee58b4aa`](https://github.com/keycloak/keycloak/commit/5274246ade2f0a4731ee5004cf29eec4ee58b4aa)
-- Upstream tree: `5fc6d20afdd8a8f94210ad6a6715246b9dc3c010`
-- License: Apache-2.0; preserve [original license](https://github.com/keycloak/keycloak/blob/5274246ade2f0a4731ee5004cf29eec4ee58b4aa/LICENSE.txt), copyright and notices.
+- Latest stable upstream release at review: [26.8.2](https://github.com/keycloak/keycloak/releases/tag/26.8.2) (2026-11-05).
+- Upstream commit: [`e514445f9dcdabc5bdcf67cab56c1e49655de067`](https://github.com/keycloak/keycloak/commit/e514445f9dcdabc5bdcf67cab56c1e49655de067)
+- Upstream tree: `6f439a9bda71c39bf725150cea5d50f149e423f6`
+- License: Apache-2.0; preserve [original license](https://github.com/keycloak/keycloak/blob/e514445f9dcdabc5bdcf67cab56c1e49655de067/LICENSE.txt), copyright and notices.
 - Source directory: `source/`, a Git submodule targeting the original upstream repository at that exact commit.
 
 To materialize the full source code locally after checking out NextOpenSource:
