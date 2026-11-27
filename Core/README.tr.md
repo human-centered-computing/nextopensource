@@ -1,6 +1,6 @@
 # Core — ortak açık kaynak temeli
 
-[English](README.md) · [Türkçe](README.tr.md) · [NextOpenSource](../README.tr.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 Bu klasör, HCC için üçüncü taraf açık kaynak projelerinden alınan yeniden kullanılabilir bileşenlerin ortak kataloğu ve kaynak kod alanıdır. Yetkilendirilmiş her bileşen `Core/<BileşenKimliği>/` altında sabit bir klasöre sahip olur.
 

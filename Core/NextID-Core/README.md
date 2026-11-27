@@ -1,6 +1,6 @@
 # NextID-Core
 
-[English](README.md) · [Türkçe](README.tr.md) · [Core library](../README.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 Shared open-source identity and access management foundation for NextID. Original source from [keycloak/keycloak](https://github.com/keycloak/keycloak); the personal fork is a structural reference, not the source. No original upstream file has been intentionally changed.
 
@@ -10,8 +10,8 @@ Shared open-source identity and access management foundation for NextID. Origina
 - License: Apache-2.0; original license, attribution and notices are in the source.
 - Source: [source/](source/), the full exact upstream Git tree as ordinary files.
 
-A normal authenticated clone of NextOpenSource contains the complete source tree; no submodule initialization is needed. NextID can use the pinned source as build input. Its own independent repository holds localized data, themes, extensions, Dockerfile and product configuration.
+A normal clone of NextOpenSource contains the complete source tree; no submodule initialization is needed. NextID can use the pinned source as build input. Its own independent repository holds localized data, themes, extensions, Dockerfile and product configuration.
 
-The existing personal NextID is based on a Core container image and adds a NextLog listener extension. The future HCC delivery model separates original Keycloak source, reviewed Core build artifact and customized NextID product image. Neither a build nor image publication is authorized by this source registration. For build reproducibility, record the exact NextOpenSource commit and resulting image digest; avoid relying on floating `latest`. Private repository access must be authorized; do not place credentials in Dockerfiles.
+The existing personal NextID is based on a Core container image and adds a NextLog listener extension. The future HCC delivery model separates original Keycloak source, reviewed Core build artifact and customized NextID product image. Neither a build nor image publication is authorized by this source registration. For build reproducibility, record the exact NextOpenSource commit and resulting image digest; avoid relying on floating `latest`. This repository is public; do not place credentials in Dockerfiles.
 
 Update the upstream snapshot only through a reviewed PR, verify exact expected tree, retain upstream license and notices, and perform NextSecurity assessment, build and regression tests before production use. No automatic update or publication is enabled.

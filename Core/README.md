@@ -1,6 +1,6 @@
 # Core — shared open-source foundation
 
-[English](README.md) · [Türkçe](README.tr.md) · [NextOpenSource](../README.md)
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 This directory is the shared catalog and source location for reusable open-source components acquired from third-party upstream projects for HCC. Each authorized component has its own stable directory under `Core/<ComponentID>/`.
 
