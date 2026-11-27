@@ -28,7 +28,7 @@ NextRoadmap owns approved project analysis; NextOpenSource owns detailed upstrea
 
 ## Core library
 
-[Core](Core/README.md) contains reusable third-party open-source source code and provenance records once the imports are authorized. Keep upstream baselines distinct from HCC adaptations, localized data and product presentation. The library is currently empty of imported components.
+[Core](Core/README.md) contains reusable third-party open-source source code and provenance records once the imports are authorized. Keep upstream baselines distinct from HCC adaptations, localized data and product presentation. The first registered component is [NextID-Core](Core/NextID-Core/README.md), pinned to the original Keycloak source via a Git submodule.
 
 ## Projects
 
