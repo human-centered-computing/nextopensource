@@ -17,7 +17,7 @@ NextLife'ın tüm HCC projelerine hizmet veren bağımsız açık kaynak ve üst
 - Üst kaynak geçmişi, atıf ve lisansları koruma; Core değişikliklerini yerelleştirilmiş veri, sunum ve özgün ürün değerinden ayırma.
 - Yama envanteri, güncelleme stratejisi, sözleşmeler, lisans ve güvenlik kısıtları; bağımsız doğrulamayı NextSecurity'ye yönlendirme.
 
-NextRoadmap onaylı proje analizini, NextOpenSource ayrıntılı üst kaynak değerlendirmeleri ve köken kayıtlarını yönetir. Uyarlanan kaynak kod ürün/Core depolarında kalır. Fork, yayın, lisans hakkı verme veya entegrasyon otomatik yetkilendirilmez.
+NextRoadmap onaylı proje analizini, NextOpenSource ayrıntılı üst kaynak değerlendirmeleri ve köken kayıtlarını yönetir. [Core kütüphanesi](Core/README.tr.md), yetkilendirilmiş üst kaynak kodu aktarımlarının ortak alanıdır; her bileşen ayrı klasörde tutulur. Bağımsız Core ve ürün depoları kendi uyarlanmış kaynak kodunun sahibi olarak kalır; bunlar kaydedilir ve bağlantılanır, yinelenen kopyalar oluşturulmaz. Fork, yayın, lisans hakkı verme veya entegrasyon otomatik yetkilendirilmez.
 
 ## Proje çalışma alanları ve iş akışı
 
@@ -25,6 +25,10 @@ NextRoadmap onaylı proje analizini, NextOpenSource ayrıntılı üst kaynak de�
 - Önce onaylı [NextRoadmap](https://github.com/human-centered-computing/nextroadmap) proje analizi ve ilgili HCC politikaları okunur. [Çalışma kayıt şablonu](templates/WORKSPACE.md) kullanılır.
 - Kapsam, rol, sorumlu insan, kesin kaynak sürümü, kanıt, karar, kısıtlar, ölçülebilir kabul ve insan faydası, bağımsız inceleme ve gerekli insan onayı kaydedilir. Kapsamı belirli değişiklikler incelenebilir PR'larla sunulur.
 - Gizli bilgiler, kişisel veriler ve hassas kanıtlar olağan Git geçmişinde tutulmaz; yetki dahilinde erişim kontrollü kanıta bağlantı verilir. Kendi çalışmasını onaylama, kapsamı sessizce genişletme ve kanıtsız sonuç iddiası yasaktır.
+
+## Core kütüphanesi
+
+[Core](Core/README.tr.md), yeniden kullanılabilir üçüncü taraf açık kaynak kodlarının ve köken kayıtlarının yetkili aktarımından sonra tutulacağı alandır. Üst kaynak temeli, HCC uyarlamaları, yerelleştirilmiş veri ve ürünün görsel sunumundan ayrı tutulur. Henüz bileşen aktarılmamıştır.
 
 ## Projeler
 

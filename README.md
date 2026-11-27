@@ -17,7 +17,7 @@ The **Open-source specialist** role in [NextDeveloper](https://github.com/human-
 - Preserve upstream history, attribution and licenses; distinguish Core changes from localized data, presentation and original product value.
 - Document patch inventory, update strategy, contracts, license and security limitations; route independent verification to NextSecurity.
 
-NextRoadmap owns approved project analysis; NextOpenSource owns detailed upstream evaluations and provenance records. Product/Core repositories own adapted source. No fork, release, license grant or integration is automatically authorized.
+NextRoadmap owns approved project analysis; NextOpenSource owns detailed upstream evaluations and provenance records. The [Core library](Core/README.md) is the shared location for authorized upstream source imports, with one directory per component. Independently maintained Core and product repositories remain the owners of their adapted source; register and link them rather than creating competing copies. No fork, release, license grant or integration is automatically authorized.
 
 ## Project workspaces and workflow
 
@@ -25,6 +25,10 @@ NextRoadmap owns approved project analysis; NextOpenSource owns detailed upstrea
 - Read the approved [NextRoadmap](https://github.com/human-centered-computing/nextroadmap) project analysis and relevant HCC policies first. Use [the work record template](templates/WORKSPACE.md).
 - Record scope, role, human owner, exact source revision, evidence, decisions, limitations, measurable acceptance and human benefit, independent review and required human authorization. Submit scoped changes through reviewable PRs.
 - Keep secrets, personal data and confidential evidence out of ordinary Git history; link access-controlled evidence where authorized. No self-approval. Do not silently widen scope or claim tested outcomes without evidence.
+
+## Core library
+
+[Core](Core/README.md) contains reusable third-party open-source source code and provenance records once the imports are authorized. Keep upstream baselines distinct from HCC adaptations, localized data and product presentation. The library is currently empty of imported components.
 
 ## Projects
 
